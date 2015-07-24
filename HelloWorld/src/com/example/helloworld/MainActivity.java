@@ -1,15 +1,16 @@
 package com.example.helloworld;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
+import android.widget.ImageView.ScaleType;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 	private ImageView image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
